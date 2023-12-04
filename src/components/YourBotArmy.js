@@ -1,6 +1,6 @@
 import React from "react";
 import BotCard from "./BotCard";
-
+//USING DESTRUCTURING OF the Props and are passed directly
 function YourBotArmy({ bots, removeBot, deleteBot }) {
   //your bot army code here...
   const armyItem = bots.map((bot) => {

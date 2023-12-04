@@ -8,6 +8,7 @@ const botTypeClasses = {
   Witch: "icon magic",
   Captain: "icon star",
 };
+///This is child component that through information flow,it affects the behaviour of Parent/Siblings Components on clicking by Props///
 
 function BotCard({ bot, clickEvent, deleteBot }) {
   return (

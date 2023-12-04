@@ -3,10 +3,10 @@ import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
 
 function BotsPage() {
-  // start here with your code for step one
+  // The initiliazing variables Where the initial state is const is useState with the empty Array//
   const [bots, setBots] = useState([]);
 
-  // a utility function to fetch data from the server
+  // THE USE OF THE useEffect Hokok in fetchin Data form a Public API AS a utility function to fetch data from the server//
   useEffect(() => {
     fetch('http://localhost:8002/bots')
       .then((response) => response.json())

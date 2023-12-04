@@ -1,5 +1,6 @@
 import React from "react";
 import BotCard from "./BotCard";
+//USING DESTRUCTURING OF the Props and are passed directly
 
 function BotCollection({ bots, enlistBot, deleteBot }) {
   // Your code here
